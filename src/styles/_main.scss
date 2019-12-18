@@ -1,0 +1,14 @@
+.main {
+  display: flex;
+  min-height: 80vh;
+  width: 100%;
+}
+
+.main__info {
+  font-size: x-large;
+  grid-column-gap: 1;
+  grid-column-end: 3;
+  text-align: center;
+  text-transform: uppercase;
+  width: 100%;
+}

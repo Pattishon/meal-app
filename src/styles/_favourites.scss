@@ -1,0 +1,39 @@
+.favourites {
+  background: $yellow;
+  cursor: pointer;
+  max-height: 15rem;
+  overflow: auto;
+  position: fixed;
+  top: 3.5rem;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
+}
+
+.favourites__fav {
+  display: flex;
+  align-items: center;
+  padding: 0.2rem 0.8rem;
+}
+
+.favourites__fav-img {
+  height: 2rem;
+  margin-right: 1rem;
+  object-fit: cover;
+  object-position: center;
+  width: 2.5rem;
+}
+.favourites__fav-title {
+  font-size: small;
+}
+
+@media (min-width: 768px) {
+  .favourites {
+    background: #fff;
+    border: 0.8px solid grey;
+    border-top: none;
+    border-radius: 0 0 0.5rem 0.5rem;
+    position: absolute;
+    top: 2.2rem;
+  }
+}
